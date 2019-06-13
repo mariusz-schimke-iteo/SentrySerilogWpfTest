@@ -12,7 +12,7 @@ namespace SentrySerilogWpfTest
     /// </summary>
     public partial class App : Application
     {
-        // TODO: set your DNS
+        // TODO: set your DSN
         private const string Dsn = "";
 
         private IDisposable sentry;
